@@ -1,0 +1,14 @@
+parser: babel-eslint
+plugins: [jasmine]
+extends: [angular, eslint:recommended, plugin:jasmine/recommended]
+rules:
+  quotes: [ 2, single]
+  strict: [2, global]
+  semi: [error, always]
+  angular/on-watch: warn
+env:
+  jasmine: true
+globals:
+  angular: false
+  module: false
+  require: false
