@@ -7,10 +7,36 @@
     <title>Rachel The App</title>
 </head>
 <body>
+
+  <!-- I can add: {{ 1+2 }}. -->
 <div class="content">
     <div class="ui-view">
         <ui-view></ui-view>
     </div>
 </div>
+<!-- <script src="../node_modules/angular/angular.js"></script> -->
+<!-- <script src="../src/app.module.js"></script> -->
+<!-- <script>
+angular.module('RachelTheApp', ['ui.router'])
+  //.component('home', HomeComponent)
+  //.config(appRoutes);
+  .config(function($stateProvider) {
+  var helloState = {
+    name: 'hello',
+    url: '/hello',
+    template: '<h3>hello world!</h3>'
+  }
+
+  var aboutState = {
+    name: 'about',
+    url: '/about',
+    template: '<h3>Its the UI-Router hello world app!</h3>'
+  }
+
+  $stateProvider.state(helloState);
+  $stateProvider.state(aboutState);
+});
+
+</script> -->
 </body>
 </html>
