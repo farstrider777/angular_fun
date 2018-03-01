@@ -1,7 +1,8 @@
 import homeComponent from './home';
+import homeController from './home';
 
 const HomeComponent = {
-	controller: () => {},
+	controller: homeController,
 	template: homeComponent
 };
 

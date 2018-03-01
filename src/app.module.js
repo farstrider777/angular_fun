@@ -3,6 +3,7 @@ import appRoutes from './app.routes';
 import './app.scss';
 import HomeComponent from './home/home.component';
 import TestComponent from './test/test.component';
+import ListComponent from './list/list.component';
 
 // External Modules
 import '@uirouter/angularjs';
@@ -14,6 +15,7 @@ import 'jquery';
 angular.module('RachelTheApp', ['ui.router'])
   .component('home', HomeComponent)
   .component('test', TestComponent)
+  .component('list', ListComponent)
   .config(appRoutes);
 //   .config(function($stateProvider) {
 //   var helloState = {
