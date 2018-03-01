@@ -17,4 +17,8 @@ describe('Home Component', function() {
   it('should exist', function() {
     expect(component.length).toEqual(1);
   });
+  it('should add a new list when we click makeNew button', () => {
+    //console.log(component.find("[data-start-list]"))
+    //expect(component.find("[data-start-list]"))
+  });
 });

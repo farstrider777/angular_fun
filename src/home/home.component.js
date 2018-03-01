@@ -1,5 +1,5 @@
-import homeComponent from './home';
-import homeController from './home';
+import homeComponent from './home.component.js';
+import homeController from './home.controller.js';
 
 const HomeComponent = {
 	controller: homeController,
