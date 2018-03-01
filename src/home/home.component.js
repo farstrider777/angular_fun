@@ -1,6 +1,8 @@
+import homeComponent from './home';
+
 const HomeComponent = {
 	controller: () => {},
-	template: '<div>hello world. Rachel is here.</div> <div class="alert alert-primary" role="alert">This is a primary alert—check it out!</div>'
+	template: homeComponent
 };
 
 export default HomeComponent;
