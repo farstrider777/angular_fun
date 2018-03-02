@@ -5,7 +5,7 @@ import HomeComponent from './home/home.component';
 import TestComponent from './test/test.component';
 import ListComponent from './list/list.component';
 import HomeController from './home/home.controller';
-
+//console.log(HomeController);
 // External Modules
 import '@uirouter/angularjs';
 import 'angular-mocks';
@@ -17,7 +17,12 @@ angular.module('RachelTheApp', ['ui.router'])
   .component('home', HomeComponent)
   .component('test', TestComponent)
   .component('list', ListComponent)
-  .controller('homeController', HomeController)
+  .controller('HomeController', HomeController)
+//   .controller('HomeController', ['$scope', function($scope) {
+//   console.log("hi");
+//   console.log($scope)
+//   $scope.greeting = 'Hola!';
+// }])
   .config(appRoutes);
 //   .config(function($stateProvider) {
 //   var helloState = {
