@@ -1,9 +1,10 @@
-export default class HomeController {
-  constructor(){
-    //console.log('hello');
-  }
+function HomeController ($log){
+  // constructor(){
+  //console.log('hello');
+  // }
+  $log.log('yo');
 }
 
-HomeController.$inject = [];
+HomeController.$inject = ['$log'];
 
-//'$state'
+export default HomeController;

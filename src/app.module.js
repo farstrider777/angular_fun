@@ -5,6 +5,7 @@ import HomeComponent from './home/home.component';
 import TestComponent from './test/test.component';
 import ListComponent from './list/list.component';
 import HomeController from './home/home2.controller';
+//console.log('whoa')
 
 // External Modules
 import '@uirouter/angularjs';
