@@ -14,6 +14,6 @@ describe('List Component', function() {
   });
   it('should exist', function() {
     //expect(JSON.stringify(component)).toEqual('{"0":{"ng339":5},"length":1}');
-    expect(angular.toJson(component)).toEqual('{"0":{"ng339":5},"length":1}');
+    expect(angular.toJson(component)).toEqual('{"0":{"ng339":7},"length":1}');
   });
 });

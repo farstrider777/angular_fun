@@ -1,10 +1,14 @@
-function HomeController ($log){
+function HomeController ($log, $scope, $document){
   // constructor(){
   //console.log('hello');
   // }
-  $log.log('yo');
+  $scope.makeNewList = function () {
+    $log.log(angular.element('<list></list>'));
+    //angular.element(document).find(".title");
+    $log.log($document.find('.title'));
+  };
 }
 
-HomeController.$inject = ['$log'];
+HomeController.$inject = ['$log', '$scope', '$document'];
 
 export default HomeController;
