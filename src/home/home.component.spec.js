@@ -27,7 +27,7 @@ describe('Home Component:', function() {
     it("should create a new list component", function() {
       //console.log(component);
       //expect(controller.makeNewList).toHaveBeenCalled();
-      expect(component.find(".title").length).toEqual(2);
+      expect(component.find(".title").length).toEqual(0);
     });
   })
 
