@@ -8,6 +8,12 @@ function HomeController ($log, $scope, $document){
     $log.log(angular.element('<list></list>'));
     //angular.element(document).find(".title");
     $log.log($document.find('.title'));
+    //list
+    let lists = $scope.lists;
+    $log.log(lists.length);
+    $scope.lists.push('<list></list>');
+
+
   };
 }
 
