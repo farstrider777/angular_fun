@@ -1,8 +1,8 @@
-import listComponent from './list';
+import listComponentTemplate from './list';
 
 const ListComponent = {
 	controller: () => {},
-	template: listComponent
+	template: listComponentTemplate
 };
 
 export default ListComponent;

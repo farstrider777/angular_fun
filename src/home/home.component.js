@@ -1,9 +1,9 @@
-import homeComponent from './home';
+import homeComponentTemplate from './home';
 import homeController from './home2.controller';
 
 const HomeComponent = {
 	controller: homeController,
-	template: homeComponent
+	template: homeComponentTemplate
 };
 
 export default HomeComponent;
