@@ -23,12 +23,12 @@ function HomeController ($log, $scope, $document){
     $log.log($document[0].getElementById('hypno'));
     $log.log('-----------------');
     $document[0].getElementById('hypno').innerHTML = 'whooooo';
-    $document[0].getElementById('hypno').append('things');
+    $document[0].getElementById('hypno').append('things <div> things on next line </div>');
     //let node = $document[0].getElementById('hypno').lastChild;
     let div = $document[0].createElement('div');
     //$log.log(node);
 ////////////////////////
-    var t = $document[0].createTextNode('This is textnode.');
+    var t = $document[0].createTextNode('my first list');
     $log.log(t);
 
     $log.log(div);
